@@ -1,12 +1,13 @@
 #!/bin/bash
-#SBATCH --job-name=tetracyclic_md
-#SBATCH --partition=compute
+#SBATCH --job-name=tetracyclic_md            # Job name
+#SBATCH --output=tetracyclic_%j.out          # Output file
+#SBATCH --error=tetracyclic_%j.err           # Error file
+#SBATCH --ntasks=1                           # Number of MPI tasks
 #SBATCH --nodes=1
-#SBATCH --ntasks-per-node=16
-#SBATCH --time=24:00:00
-#SBATCH --memory=16GB
-#SBATCH --output=tetracyclic_%j.out
-#SBATCH --error=tetracyclic_%j.err
+#SBATCH --time=24:00:00                      # Set a reasonable job time window
+#SBATCH --partition=phd_student              # Your working partition!
+#SBATCH --qos=phd_student                    # Your working QoS!
+
 
 # Load modules (adjust for your cluster)
 module load lammps/latest
