@@ -1,0 +1,8 @@
+ALPHA vs. TREE CUSTOM RATIO ANALYSIS
+==================================================
+Alpha File: gyration.alpha_polymer.txt
+Tree File:  gyration.tree_polymer.txt
+--------------------------------------------------
+Avg. <Rg^2>_alpha: 182.466960
+Avg. <Rg^2>_tree:  457.478605
+Custom Ratio:       0.398854
