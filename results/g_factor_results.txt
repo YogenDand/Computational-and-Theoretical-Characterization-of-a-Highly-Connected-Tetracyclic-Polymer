@@ -1,9 +1,0 @@
-TETRACYCLIC ALPHA POLYMER G-FACTOR ANALYSIS
-==================================================
-Average Rg (tetracyclic): 33.766750 ± 3.903254
-Theoretical Rg (linear):  50.618499
-Calculated g-factor:      0.445000
-Expected g-factor:        0.445000
-Difference:               0.000000
-Simulation timesteps:     100000
-Data points analyzed:     501
